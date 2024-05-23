@@ -13,7 +13,7 @@ The evaluation metric for this competition is Root Mean Squared Logarithmic Erro
 
 The RMSLE is calculated as:
 
-$$RMSLE = \sqrt{ \frac{1}{n} \sum_{i=1}^{n} [\log(y_i + 1) - \log(y_hat_i + 1)]^2 }$$
+$$RMSLE = sqrt((1/n) * sum((log(1+y^i) - log(1+yi))^2))$$
 
 
 
